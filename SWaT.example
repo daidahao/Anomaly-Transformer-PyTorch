@@ -1,0 +1,5 @@
+python main.py --train --data ../data/SWaT_Dataset_Normal_v1.csv \
+    --n_features 51 --window_size 10 --skiprows 36000 --stride 10
+
+python main.py --test --data ../data/SWaT_Dataset_Attack_v0.csv \
+    --n_features 51 --window_size 10 --stride 10

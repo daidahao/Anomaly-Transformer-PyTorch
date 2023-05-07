@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# data
+data/
+*.pt
+*.csv
+
+# project files
+play.py
+
+# python cache
+__pycache__/
