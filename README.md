@@ -1,7 +1,7 @@
 # Anomaly Transformer in PyTorch
 
 This is a reimplementation of [**Anomaly Transformer**: Time Series Anomaly Detection with Association Discrepancy. (ICLR 2022)](https://openreview.net/forum?id=LzQQ89U1qm_) in PyTorch.
-[Original code](https://github.com/thuml/Anomaly-Transformer) was stripped-down and rewrote (where necessary) to support my own research.
+[Original code](https://github.com/thuml/Anomaly-Transformer) was stripped-down and rewritten (where necessary) to support my own research.
 
 
 ## Requirements
