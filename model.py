@@ -187,7 +187,7 @@ def kl_divergence(p, q):
     Arguments:
         p, q: Tensor, shape ``[..., n]``
     """
-    return torch.sum(p * torch.log((p+1e-4) / (q+1e-4)), dim=-1)
+    return torch.sum(p * torch.log((p+1e-10) / (q+1e-10)), dim=-1)
 
 def symmetrical_kl_divergence(p, q):
     """
